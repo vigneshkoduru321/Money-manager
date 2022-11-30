@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+p {
+  margin: 15px;
+}
+button {
+  border-width: 0px;
+  background-color: transparent;
+}
+img {
+  height: 20px;
+}

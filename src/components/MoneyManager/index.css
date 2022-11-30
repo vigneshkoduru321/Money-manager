@@ -1,0 +1,69 @@
+/* Write your CSS here */
+.main-background {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.first-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  height: 200px;
+  width: 800px;
+  background-size: cover;
+}
+.second-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.card {
+  height: 100px;
+  width: 200px;
+  border-radius: 30px;
+  margin: 20px;
+}
+.card-1 {
+  background-color: #ecfccb;
+}
+.card-2 {
+  background-color: #cbd5e1;
+}
+.card-3 {
+  background-color: #ede9fe;
+}
+.card-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+img {
+  height: 50px;
+}
+.third-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.form-con {
+  height: 300px;
+  width: 250px;
+  background-color: aqua;
+  margin-right: 30px;
+}
+.history-con {
+  height: 300px;
+  width: 300px;
+  background-color: aqua;
+  margin-left: 30px;
+}
+.history-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
